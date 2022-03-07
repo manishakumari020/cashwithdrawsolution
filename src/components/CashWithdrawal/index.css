@@ -1,0 +1,152 @@
+.app-background-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.cash-withdraw-container {
+  background-color: #150b3e;
+  width: 80%;
+  max-width: 350px;
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-top: 24px;
+  padding-bottom: 10px;
+  border-radius: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .cash-withdraw-container {
+    padding-left: 36px;
+    padding-right: 36px;
+    padding-top: 48px;
+    padding-bottom: 16px;
+    width: 50%;
+    max-width: 420px;
+  }
+}
+
+.user-details-container {
+  display: flex;
+}
+
+.initial-container {
+  background-color: #c7d2fe;
+  border-radius: 24px;
+  height: 45px;
+  width: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .initial-container {
+    border-radius: 32px;
+    height: 64px;
+    width: 64px;
+  }
+}
+.initial {
+  color: #7c3aed;
+  font-family: 'Roboto';
+  font-size: 15px;
+}
+
+.name {
+  color: #d4d2db;
+  font-size: 14px;
+  font-family: 'Roboto';
+  margin-left: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .name {
+    font-size: 19px;
+    margin-left: 18px;
+  }
+}
+
+.balance-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 24px;
+}
+
+.description {
+  color: #585076;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: 'Roboto';
+}
+
+@media screen and (min-width: 768px) {
+  .description {
+    font-size: 20px;
+    margin-top: 8px;
+  }
+}
+
+.value {
+  color: #d4d2db;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 500;
+  margin: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .value {
+    font-size: 32px;
+  }
+}
+
+.currencies {
+  color: #585076;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .currencies {
+    font-size: 12px;
+  }
+}
+
+.withdraw-text {
+  color: #d4d2db;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .withdraw-text {
+    font-size: 24px;
+    margin-top: 24px;
+  }
+}
+
+.choose-text {
+  color: #585076;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 500;
+  margin-bottom: 12px;
+}
+
+@media screen and (min-width: 768px) {
+  .choose-text {
+    font-size: 16px;
+    margin-bottom: 24px;
+  }
+}
+
+.list-container {
+  padding-left: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
